@@ -21,7 +21,7 @@ import (
 
 	"cloud.google.com/go/spanner"
 	admindatabasev1 "cloud.google.com/go/spanner/admin/database/apiv1"
-	"github.com/gcpug/handy-spanner/fake"
+	"github.com/ryokubozono/handy-spanner/fake"
 	"google.golang.org/api/option"
 	databasepb "google.golang.org/genproto/googleapis/spanner/admin/database/v1"
 )

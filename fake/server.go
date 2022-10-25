@@ -24,7 +24,7 @@ import (
 	"github.com/MakeNowJust/memefish/pkg/ast"
 	"github.com/MakeNowJust/memefish/pkg/parser"
 	"github.com/MakeNowJust/memefish/pkg/token"
-	"github.com/gcpug/handy-spanner/server"
+	"github.com/ryokubozono/handy-spanner/server"
 	lropb "google.golang.org/genproto/googleapis/longrunning"
 	adminv1pb "google.golang.org/genproto/googleapis/spanner/admin/database/v1"
 	spannerpb "google.golang.org/genproto/googleapis/spanner/v1"

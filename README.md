@@ -3,7 +3,7 @@
 ## Install
 
 ```
-go get github.com/gcpug/handy-spanner/cmd/handy-spanner
+go get github.com/ryokubozono/handy-spanner/cmd/handy-spanner
 ```
 
 NOTE: If you want to use some features (e.g. array literal `[]` in DML), require "json1" build tag.
@@ -81,7 +81,7 @@ It seems most clients for each language for these gRPC services provided Google 
 ### Run as a buillt-in server in Go
 
 If you use a handy-spanner server in tests in Go, it's easier to run it in a process.
-See an [example](https://github.com/gcpug/handy-spanner/blob/master/fake/example_test.go) for the details.
+See an [example](https://github.com/ryokubozono/handy-spanner/blob/master/fake/example_test.go) for the details.
 
 Note that the tests highly depend on handhy-spanner, which means you cannot switch the backend depending on the situation. If you want to test on both Cloud Spanner and handy-spanner, it's better to use a handy-spanner server as an independent process.
 

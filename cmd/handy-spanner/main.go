@@ -24,7 +24,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/gcpug/handy-spanner/fake"
+	"github.com/ryokubozono/handy-spanner/fake"
 	"golang.org/x/sync/errgroup"
 )
 
