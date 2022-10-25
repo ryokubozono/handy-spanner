@@ -13,8 +13,8 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.10
 	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
 	google.golang.org/api v0.96.0
-	google.golang.org/genproto v0.0.0-20220916134934-764224ccc2d1
-	google.golang.org/grpc v1.48.0
+	google.golang.org/genproto v0.0.0-20221024183307-1bc688fe9f3e
+	google.golang.org/grpc v1.50.1
 	google.golang.org/protobuf v1.28.1
 )
 
